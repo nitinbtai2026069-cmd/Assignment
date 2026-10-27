@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Pal | My Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Nitin Pal's Portfolio</h1>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#course">My Courses</a> |
+            <a href="#blog">Blog</a> |
+            <a href="https://github.com/" target="_blank">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+
+            <!-- Add your photo inside the img folder -->
+            <img src="img/nitin.jpg"
+                 alt="Photo of Nitin Pal"
+                 width="150">
+
+            <p>
+                Hello! My name is Nitin Pal.
+                I am a student interested in learning
+                web development and programming.
+                I enjoy creating websites and learning
+                new technologies.
+            </p>
+        </section>
+
+        <section id="course">
+            <h2>My Courses</h2>
+
+            <ul>
+                <li>Subjects
+                    <ol>
+                        <li>Web Development</li>
+                        <li>Data Structures and Algorithms (DSA)</li>
+                    </ol>
+                </li>
+                <li>Tools: VS Code and Git</li>
+                <li>Platform: GitHub</li>
+            </ul>
+        </section>
+
+        <article id="blog">
+            <h2>My First Blog</h2>
+            <p>
+                Today I am creating my portfolio website
+                using HTML. I am learning semantic HTML
+                elements such as header, nav, main,
+                section, article, aside, and footer.
+                I am excited to improve my coding skills!
+            </p>
+        </article>
+
+        <aside>
+            <h3>Quick Facts</h3>
+
+            <dl>
+                <dt>Name</dt>
+                <dd>Nitin Pal</dd>
+
+                <dt>Hobby</dt>
+                <dd>Learning Technology</dd>
+
+                <dt>Interest</dt>
+                <dd>Web Development</dd>
+
+                <dt>Tools</dt>
+                <dd>VS Code, Git, GitHub</dd>
+            </dl>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Created by Nitin Pal</p>
+        <p>
+            <a href="https://github.com/" target="_blank">
+                Visit My GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
